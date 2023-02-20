@@ -4,11 +4,15 @@
   "description": "API de gestão de tarefas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node index.js"
   },
   "author": "Msmuelsons",
-  "license": "ISC",
   "dependencies": {
-    "babel": "^6.23.0"
+    "babel": "^6.23.0",
+    "consign": "^0.1.6",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
